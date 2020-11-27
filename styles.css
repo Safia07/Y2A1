@@ -1,0 +1,42 @@
+body {
+    background-color: #8FB8DE;  
+    }
+    input {
+    border: 2px solid #ddd;
+    color: #fff;
+    background-color: #555;
+    }
+    input::placeholder {
+    color: #ccc;
+    }
+     
+    h1 {
+        color: rgb(250, 241, 241);
+        }
+
+    p {
+        color: rgb(250, 241, 241);
+        }
+
+
+
+
+    h2 {
+        color: #CDF7F6;
+    }
+
+    h3 {
+        color: #8FB8DE;
+    }
+
+    h4 {
+        color: #9A94BC;
+    }
+
+    h5 {
+        color: #9B5094;
+    }
+
+    h6 {
+        color: #6A605C;
+    }
