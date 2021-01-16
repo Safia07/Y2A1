@@ -9,7 +9,7 @@ body {
   font-family: Arial;
 }
 
-/* Center website */
+
 .main {
   max-width: 1000px;
   margin: auto;
@@ -24,39 +24,39 @@ h1 {
   margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column (if you want) */
+
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+
 .column {
   float: left;
   width: 25%;
 }
 
-/* Clear floats after rows */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Content */
+
 .content {
   background-color: #8FB8DE;
   padding: 10px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -98,7 +98,7 @@ body
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #8FB8DE;
 }
 
 
@@ -135,9 +135,10 @@ body
   
   transform-origin: 4px 0px;
   
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+  transition: 
+  transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  opacity 0.55s ease;
 }
 
 #menuToggle span:first-child
@@ -276,43 +277,42 @@ div.container a
     cursor: pointer;
 }
 
-/* Background Landing Video Page */
 
 
 * {
-    margin: 0%;
-    
-    }
-    h1 {
-        font-family: 'Quicksand', sans-serif;
-        text-align: center;
-        font-size: 3.5rem;
-        line-height: 2em;  
-    }
-    
-    h2 {
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    font-size: 2.5rem;
-    line-height: 1.5em;
-    }
+  margin: 0%;
+  
+  }
+  h1 {
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+      font-size: 3.5rem;
+      line-height: 2em;  
+  }
+  
+  h2 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.5em;
+  }
 
-    p { 
-    font-family: 'Slabo 27px', serif;
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 2em;
-    margin: 40px;
-    line-height: 1.6em;
-     
-    }
-    
-    .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*background: #333;
-    background: rgba(0, 0, 0, 0.25);*/
+  p { 
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 2em;
+  margin: 40px;
+  line-height: 1.6em;
+   
+  }
+  
+  .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background: #333;
+  background: rgba(0, 0, 0, 0.25);*/
 
     .CV {
         /* display: flex; */   
@@ -360,30 +360,28 @@ div.container a
         flex: content;
     }
 
-    /* Three image containers (use 25% for four, and 50% for two, etc) */
+
 .column {
     float: left;
     width: 30%;
     padding: 5px;
   }
   
-  /* Clear floats after image containers */
+
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
 
-  /* Better box-model */
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
 
-/*
-  Screen reader only
-*/
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -395,15 +393,8 @@ div.container a
   border: 0;
 }
 
-/*
-  ===================================================
-  Base styles for all devices sizes, but mobile first
-  ===================================================
-*/
 
-/*
-  Hamburger menu icon/'button' styling
-*/
+
 .menu-toggle {
   display: inline-block;
   padding: .75em 15px;
@@ -414,17 +405,14 @@ div.container a
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-  color: #c00;
+  color: #8FB8DE;
 }
 
-/*
-  Offscreen menu styling
-  - Default styles + mobile first
-*/
+
 .main-menu {
   position: absolute;
   display: none;
-  left: -200px; /* push off the screen to the left for future animation */
+  left: -200px; 
   top: 0;
   height: 100%;
 	overflow-y: scroll;
@@ -438,7 +426,7 @@ div.container a
   list-style: none;
   margin: 0;
   padding: 2.5em 0 0;
-  /* Hide shadow w/ -8px while 'closed' */
+  
   -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
      -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
           box-shadow: -8px 0 8px rgba(0,0,0,.5);
@@ -447,9 +435,7 @@ div.container a
   background: #1a1a1a;
 }
 
-/*
-  Generic style for ALL hamburger menu links
-*/
+
 .main-menu a {
   display: block;
   padding: .75em 15px;
@@ -461,82 +447,52 @@ div.container a
 }
 
 .main-menu a.menu-close {
-  border-bottom: 0; /* no border for the X 'button' */
+  border-bottom: 0; 
 }
 
 .main-menu li:first-child a {
-  border-top: 1px solid #383838; /* add top border only for the first link */
+  border-top: 1px solid #383838; 
 }
 
-/*
-  Hover & focus style
-*/
+
 .main-menu a:hover,
 .main-menu a:focus {
   background: #333;
   text-decoration: underline;
 }
 
-/*
-  Close button positioning
-  - Other styles come from `.main-menu a`
-*/
+
 .main-menu .menu-close {
   position: absolute;
   right: 0;
   top: 0;
 }
 
-/*
-  =======================================
-  On small devices, allow it to toggle...
-  =======================================
-*/
-
-/*
-  Opening hamburger menu!
-  - Using `:target` for non-JavaScript
-  - `[aria-expanded]` will be used if/when JavaScript is added to improve interaction, though it's completely optional.
-*/
 .main-menu:target,
 .main-menu[aria-expanded="true"] {
   display: block;
-  left: 0; /* slide from -200px to the left edge at 0 */
+  left: 0; 
   outline: none;
-  /* fix box-shadow so it shows now */
+
   -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
   -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
   box-shadow: 3px 0 12px rgba(0,0,0,.25);
 }
 
-/*
-  Close menu button
-  - Make sure it's on top!
-  - Basically, when `.main-menu` is the target of the click, get its child `.menu-close` link
-*/
+
 .main-menu:target .menu-close,
 .main-menu[aria-expanded="true"] .menu-close {
   z-index: 1001;
 }
 
-/*
-  Hamburger menu list
-  - Make sure it's on top!
-  - Basically, when `.main-menu` is the target of the click, get its child `<ul>`
-*/
+
 .main-menu:target ul,
 .main-menu[aria-expanded="true"] ul {
   position: relative;
   z-index: 1000;
 }
 
-/*
-  Backdrop
-  - Show backdrop
-  - Basically, when `.main-menu` is the target of the click, get its sibling `.backdrop`
-  - Note: we could use `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
+
 .main-menu:target + .backdrop,
 .main-menu[aria-expanded="true"] + .backdrop{
   position: absolute;
@@ -551,15 +507,9 @@ div.container a
   cursor: default;
 }
 
-/*
-  ======================================================
-  If CSS supports `fixed`, like all good modern browsers
-  ======================================================
-*/
+
 @supports (position: fixed) {
-  /*
-    Allow backdrop to stay fixed and not "scroll"
-  */
+  
   .main-menu,
   .main-menu:target + .backdrop,
   .main-menu[aria-expanded="true"] + .backdrop {
@@ -567,23 +517,16 @@ div.container a
   }
 }
 
-/*
-  ================================
-  Larger screen styling
-  ================================
-*/
 
-/*
-  Horizontal menu (i.e. no hamburger)
-*/
+
+
 @media (min-width: 768px) {
-  /* Hide hamburger menu/'button' */
   .menu-toggle,
   .main-menu .menu-close {
     display: none;
   }
   
-  /* Undo positioning of off-canvas menu */
+
   .main-menu {
     position: relative;
 		left: auto;
@@ -593,9 +536,7 @@ div.container a
   }
   
   .main-menu ul {
-    display: flex; /* allows for full height of menu */
-    
-    /* Undo off-canvas styling */
+    display: flex; 
     padding: 0;
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
@@ -607,19 +548,17 @@ div.container a
   
   .main-menu a {
     color: #06c;
-    border: 0 !important; /* Remove borders from off-canvas styling */
+    border: 0 !important; 
   }
   
   .main-menu a:hover,
   .main-menu a:focus {
-    background: none; /* Remove background from off-canvas styling */
-    color: #c00;
+    background: none; 
+    color: #8FB8DE;
   }
 }
 
-/*
- Demo purposes only
-*/
+
 header {
   padding: 20px;
   display: flex;
