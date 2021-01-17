@@ -1,3 +1,6 @@
+/* I had used code from https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp in order to make 
+  the columns. */
+
 
 * {
   box-sizing: border-box;
@@ -31,6 +34,11 @@ h1 {
 }
 
 
+
+/* I had used code from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp to make the 
+        columns in the index page. */
+
+
 .column {
   float: left;
   width: 25%;
@@ -50,11 +58,15 @@ h1 {
 } 
 
 
+
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
+
+/* I had used code from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp to make the 
+        columns in the index page. */
 
 
 @media screen and (max-width: 600px) {
@@ -62,6 +74,9 @@ h1 {
     width: 100%;
   }
 }
+
+/* I had used used code from https://codepen.io/erikterwan/pen/EVzeRP in order to make the hamburger icon work 
+as well as the navigation in the hamburger icon. */
 
 body
 {
@@ -360,6 +375,8 @@ div.container a
         flex: content;
     }
 
+    /* I had used code from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp to make the 
+        columns in the index page. */
 
 .column {
     float: left;
